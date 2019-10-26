@@ -92,13 +92,22 @@ body {
 	border: 2px solid #89838B;
 	border-radius: 2%;
 }
+.medium-link {
+	display: block;
+	margin: 2rem;
+	text-align: center;
+}
+.journey {
+	color: #9B76A3;
+}
 
 /* ux design */
 .ux {
   padding: 2rem;
+	background-color: #292d42;
 }
 .hr {
-	height: 6px;
+	height: 2px;
 	border: 0;
 	box-shadow: 0 6px 6px -6px #8c8b8b inset;
 	margin: 2rem;
@@ -115,6 +124,7 @@ body {
 }
 .figure {
 	border-radius: 2rem;
+	background-color: #FFFFFF;
 	border: 0.08rem solid #565656;
 	margin: 1rem;
 	display: flex;
@@ -133,7 +143,7 @@ body {
 }
 .ux-text {
   text-align: center;
-  color: #292d42;
+  color: #F9F3FA;
   font-size: 1.4rem;
 }
 .view-link {
@@ -144,7 +154,6 @@ body {
 /* gallery */
 .gallery {
 	padding: 2rem;
-	background: linear-gradient(to right, #f1f0df, #fbf9cf);
 }
 .gallery-item {
 	display: flex;
@@ -152,7 +161,13 @@ body {
 	flex-direction: row;
 	margin: 2rem 0;
 	padding: 2rem 0;
-	border-bottom: 1px solid #872536;
+}
+.code-icon {
+	margin: 1rem auto;
+	display: block;
+	width: 15px;
+	background-color: #F9F3FA;
+	padding: 0.3rem 40%;
 }
 .reverse {
 	flex-direction: row-reverse;
@@ -194,6 +209,7 @@ body {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
+	cursor: pointer;
 }
 .project-skills {
 	display: flex;
@@ -256,6 +272,7 @@ body {
 	border-radius: 0.3rem;
 	opacity: 0.6;
 	transition: all 0.4s ease-in;
+	cursor: pointer;
 }
 .view-button:focus {
 	outline: 0;
@@ -270,7 +287,7 @@ body {
 
 /* contact */
 .contact {
-  background-color: #2d3033;
+  background-color: #292d42;
   padding: 2rem 0 1.5rem 0;
 }
 .email-text {
@@ -294,7 +311,7 @@ a {
 }
 .website:hover {
   opacity: 0.9;
-  color: #aa4b41;
+  color: #CE9DD9;
   transform: scale(1.1);
 }
 .website-link {
@@ -303,7 +320,7 @@ a {
 
 /* footer */
 .footer {
-  background-color: #d4dde1;
+  background-color: #F9F3FA;
   padding: 0.5rem;
   display: flex;
   justify-content: center;
@@ -317,7 +334,7 @@ a {
   margin: 0 1rem;
 }
 .footer-link:hover {
-  color: #aa4b41;
+  color: #CE9DD9;
   text-decoration: underline;
 }
 
@@ -326,13 +343,13 @@ a {
 	font-family: 'Schoolbell', cursive;
   font-size: 1.2rem;
   color: #F9F3FA;
-  padding: 0.8rem;
-  margin: 0.5rem;
-  width: 10rem;
+  padding: 0.8rem 3rem;
+  margin: 0.5rem auto;
+  width: 30%;
   display: block;
 	background-color: #292d42;
   text-align: center;
-	border-radius: 50%;
+	border-radius: 3rem;
 	line-height: 1.8rem;
 	letter-spacing: 0.15rem;
 }
@@ -342,6 +359,10 @@ a {
 	letter-spacing: 0.15rem;
 	text-align: center;
 	font-size: 1.3rem;
+}
+.reverse-title {
+	color: #292d42;
+	background-color: #F9F3FA;
 }
 
 /* RESPONSIVE DESIGN */
