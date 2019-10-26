@@ -7,7 +7,7 @@ body {
 }
 /* header */
 .header {
-	background-color: #CACFD0;
+	background-color: #89838B;
   margin: 0;
 }
 .logo-img {
@@ -70,6 +70,29 @@ body {
   letter-spacing: 0.08rem;
 }
 
+/* about */
+.about {
+	padding: 2rem;
+}
+.about-text {
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	width: 75%;
+	margin: 2rem auto;
+}
+.about-title {
+	color: #9B76A3;
+}
+.about-timeline {
+	display: flex;
+	justify-content: center;
+}
+.about-img {
+	width: 450px;
+	border: 2px solid #89838B;
+	border-radius: 2%;
+}
+
 /* ux design */
 .ux {
   padding: 2rem;
@@ -113,12 +136,6 @@ body {
   color: #292d42;
   font-size: 1.4rem;
 }
-/* .ux-img {
-  width: 500px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 2rem;
-} */
 .view-link {
   color: #222;
   opacity: 0.8;
@@ -308,7 +325,7 @@ a {
 .section-title {
 	font-family: 'Schoolbell', cursive;
   font-size: 1.2rem;
-  color: #e2d1c3;
+  color: #F9F3FA;
   padding: 0.8rem;
   margin: 0.5rem;
   width: 10rem;
