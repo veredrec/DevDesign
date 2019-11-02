@@ -2,9 +2,10 @@
 	<meta name="viewport" content="width=device-width" />
 	<meta charset="utf-8">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Cuprum|Schoolbell|ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
@@ -37,13 +38,12 @@
 	</section>
 
 	<!-- ABOUT -->
-	<section class="about" id="about">
-		<hr class="hr">
+	<section class="about reverse-title" id="about">
 		<h2 class="section-title">ABOUT</h2>
 
 		<div class="about-container">
 			<div class="about1">
-			<!--About Description-->
+				<!--About Description-->
 				<div class="about-text">
 					<h4 class="about-title">Where the story begins</h4>
 					<p class="about-p">Born and raised in Jerusalem, Israel, I focused on education and non-profit work
@@ -66,68 +66,118 @@
 						reusable code, while always aiming for best practices in my code.
 					</p>
 
-					<!-- <h4 class="about-title">What am I passionate about? (yes, that word again, but I really am!)</h4>
-					<p class="about-p">User centered design, but for real. Thinking about the
-						users, understanding the users' needs and requirements, talking and learning
-						from the users - by conducting interviews, observations, ideation sessions,
-						surveys, etc.<br>That is what motivates me to create the best improvements,
-						new features and designs I can.
-					</p> -->
 				</div>
 			</div>
 
 			<!--About Timeline-->
-			<div class="about2"
-				<div class=about-timeline>
-					<img class="about-img" src="./assets/timeline-n.jpg" alt="timeline infographic">
-				</div>
-
+			<div class="about2" <div class=about-timeline>
+				<img class="about-img" src="./assets/timeline-n.jpg" alt="timeline infographic">
 			</div>
-		</div> <!--closes container-->
 
-		<p class="medium-link">
+		</div>
+		</div><!--closes container-->
+
+		<p class="medium-link">Read more about my journey on
 			<a class="journey" href="https://medium.com/free-code-camp/the-post-i-hoped-to-write-for-18-months-2902d074f5ba" target="_blank">
-				Read more about my journey on Medium - FreeCodeCamp to see why it inspired so many others,
+				Medium - FreeCodeCamp</a> to see why it inspired so many others,
 				and even got me more than 14K claps!
-			</a>
 		</p>
 	</section>
 
 
 	<!-- UX DESIGN -->
 	<section class="ux" id="ux">
-		<h2 class="section-title reverse-title">USER EXPERIENCE DESIGN</h2>
+		<h2 class="section-title">USER EXPERIENCE DESIGN</h2>
 
 		<!--Showcase Research TheraDeck-->
-		<h3 class="ux-text"> User Experience Research / Showcase: TheraDeck</h3>
-		<div class="project-showcase">
-			<div class="showcase-line">
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/theradeck/reward-slide.png" alt="slide from research">
-					<figcaption class="showcase-caption">Reward Summary Slides</figcaption>
-				</figure>
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/theradeck/reward-research.png" alt="summary of research">
-					<figcaption class="showcase-caption">Reward Research Summary</figcaption>
-				</figure>
+		<h3 class="ux-project"> Project 1: User Experience Research: TheraDeck</h3>
+		<div class="showcase-container">
+			<div class="showcase-row">
+				<p class="showcase-text">We worked on a card-based mobile application, intended to guide young
+					people dealing with anxiety and depression.<br>While Thinking of how to
+					motivate our users to read through the decks of cards,
+					I conducted research to understand how reward systems work in
+					the mobile application world.</p>
+				<div class="showcase-images">
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/theradeck/reward-slide.png" alt="slide from research">
+						<figcaption class="showcase-caption">Reward System Summary Slides</figcaption>
+					</figure>
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/theradeck/reward-research.png" alt="summary of research">
+						<figcaption class="showcase-caption">Reward System Research Summary</figcaption>
+					</figure>
+				</div>
+			</div><!--closes row-->
+			<div class="showcase-row">
+				<p class="showcase-text">I then turned the research results into a design,
+					making use of the insights we gathered to encourage our users to use the app regularly.</p>
+				<div class="showcase-images">
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/theradeck/reward-congrats.png" alt="design reward">
+						<figcaption class="showcase-caption">Reward System in Mockups: Summary View</figcaption>
+					</figure>
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/theradeck/reward-complete.png" alt="design reward">
+						<figcaption class="showcase-caption">Reward System in Mockups: Dashboard View</figcaption>
+					</figure>
+				</div>
+			</div><!--closes row-->
+		</div><!--closes container-->
+
+		<!--Showcase Design Process Datasets-->
+		<h3 class="ux-project"> Project 2: Datasets Redesign</h3>
+		<div class="showcase-container">
+			<div class="showcase-row">
+				<p class="showcase-text">While redesigning a comlex tool, we first tried to map the tool's architecture, with all its features
+					and available actions.</p>
+				<div class="showcase-images">
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/ux/datasets-features.jpg" alt="feature architecture">
+						<figcaption class="showcase-caption">Feature Initial Mapping</figcaption>
+					</figure>
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/ux/map-ds.jpg" alt="feature mapping">
+						<figcaption class="showcase-caption">Feature Architecture</figcaption>
+					</figure>
+				</div>
+			</div><!--closes row-->
+			<div class="showcase-row">
+				<p class="showcase-text">We used user research methods as surveys and interviews to get the user's prespective
+					and proirotize the different parts of the tool.</p>
+				<div class="showcase-images">
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/ux/survey.png" alt="survey questions">
+						<figcaption class="showcase-caption">User Research - Survey</figcaption>
+					</figure>
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/ux/ideation-new.png" alt="ideation notes">
+						<figcaption class="showcase-caption">User Ideation Session Notes</figcaption>
+					</figure>
+				</div>
 			</div>
-			<div class="showcase-line">
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/theradeck/reward-congrats.png" alt="design reward">
-					<figcaption class="showcase-caption">Reward System in Mockups: Summary View</figcaption>
-				</figure>
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/theradeck/reward-complete.png" alt="design reward">
-					<figcaption class="showcase-caption">Reward System in Mockups: Dashboard View</figcaption>
-				</figure>
-			</div>
-		</div>
-		<hr class="hr">
+			<div class="showcase-row">
+				<p class="showcase-text">Combining the research and user input, we created low and high fidelity interactive mockups for implementation.</p>
+				<div class="showcase-images">
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/ux/dataset-lf.png" alt="low fidelity prototype">
+						<figcaption class="showcase-caption">Low Fidelity Prototype</figcaption>
+					</figure>
+					<figure class="figure">
+						<img class="showcase-image" src="./assets/ux/dataset-hf.png" alt="high fidelity prototype">
+						<figcaption class="showcase-caption">High Fidelity Prototype</figcaption>
+					</figure>
+				</div>
+			</div><!--closes row-->
+			<!-- <p class="credit">This project was made in collaboration with my teammate
+				<a href="https://www.linkedin.com/in/ben-bontreger/" target="_blank">
+				Ben Bontreger</a></p> -->
+		</div><!--closes container-->
 
 		<!--Showcase User Research Processes-->
-		<h3 class="ux-text"> User Research / Showcase: Aunsight Processes Tool</h3>
+		<!-- <h3 class="ux-text"> User Research / Showcase: Aunsight Processes Tool</h3>
 		<div class="project-showcase">
-			<div class="showcase-line">
+			<div class="showcase-images">
 				<figure class="figure">
 					<img class="showcase-image" src="./assets/ux/ideation.jpg" alt="ideation notes">
 					<figcaption class="showcase-caption">User Ideation Session Notes</figcaption>
@@ -137,52 +187,20 @@
 					<figcaption class="showcase-caption">Scenario Map - User Flow</figcaption>
 				</figure>
 			</div>
-		</div>
-		<hr class="hr">
+		</div> -->
+		<!-- <hr class="hr"> -->
 
 		<!--Showcase Prototyping Organization Dashboard-->
-		<h3 class="ux-text"> Prototyping / Showcase: Organization Dashboard</h3>
+		<!-- <h3 class="ux-text"> Prototyping / Showcase: Organization Dashboard</h3>
 		<div class="project-showcase">
-			<div class="showcase-line">
+			<div class="showcase-images">
 				<figure class="figure">
 					<img class="showcase-image" src="./assets/ux/org-dashboard.png" alt="prototype organization dashboard">
 					<figcaption class="showcase-caption">Organization Dashboard - Prototype</figcaption>
 				</figure>
 			</div>
-		</div>
+		</div> -->
 		<hr class="hr">
-
-		<!--Showcase Design Process Datasets-->
-		<h3 class="ux-text"> Design Process / Showcase: Datasets Redesign</h3>
-		<div class="project-showcase">
-			<div class="showcase-line">
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/ux/datasets-features.jpg" alt="feature architecture">
-					<figcaption class="showcase-caption">Feature Initial Mapping</figcaption>
-				</figure>
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/ux/survey.png" alt="survey questions">
-					<figcaption class="showcase-caption">User Research - Survey</figcaption>
-				</figure>
-			</div>
-			<div class="showcase-line">
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/ux/map.png" alt="feature mapping">
-					<figcaption class="showcase-caption">Feature Architecture</figcaption>
-				</figure>
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/ux/Dataset-List-mainview.png" alt="low fidelity prototype">
-					<figcaption class="showcase-caption">Low Fidelity Prototype</figcaption>
-				</figure>
-			</div>
-			<div class="showcase-line">
-				<figure class="figure">
-					<img class="showcase-image" src="./assets/ux/high-fidelity.png" alt="high fidelity wireframe">
-					<figcaption class="showcase-caption">High Fidelity Wireframe</figcaption>
-					<!--TODO: ADD HF Mockup-->
-				</figure>
-			</div>
-		</div>
 	</section>
 
 	<!-- GALLERY -->
