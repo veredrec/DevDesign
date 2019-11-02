@@ -84,6 +84,7 @@ body {
 /* about */
 .about {
 	padding: 2rem;
+	background-color: #292d42;
 }
 .about-container {
 	display: flex;
@@ -104,6 +105,8 @@ body {
 	justify-content: center;
 }
 .about-img {
+	margin-top: 2rem;
+	border-radius: 3rem;
 	width: 450px;
 }
 .medium-link {
@@ -111,15 +114,15 @@ body {
 	margin: 2rem;
 	text-align: center;
 	font-size: 1.3rem;
+	color: #9B76A3;
 }
 .journey {
-	color: #9B76A3;
+	color: #292d42;
 }
 
 /* ux design */
 .ux {
   padding: 2rem;
-	background-color: #292d42;
 }
 .hr {
 	height: 2px;
@@ -127,20 +130,34 @@ body {
 	box-shadow: 0 6px 6px -6px #8c8b8b inset;
 	margin: 2rem;
 }
+.showcase-row {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+}
 .project-showcase {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 }
-.showcase-line {
+.showcase-text {
+	color: #292d42;
+	font-size: 1.3rem;
+	text-align: center;
+	width: 60%;
+	margin: 1rem auto;
+	font-family: 'Neucha', cursive;
+	border-bottom: 1px solid rgba(249,243,250,0.3);
+}
+.showcase-images {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 }
 .figure {
 	border-radius: 2rem;
 	background-color: #FFFFFF;
-	border: 0.08rem solid #565656;
+	border: 0.08rem solid #F9F3FA;
 	margin: 1rem;
 	display: flex;
 	justify-content: space-between;
@@ -155,15 +172,20 @@ body {
 .showcase-caption {
 	text-align: center;
 	padding-bottom: 1rem;
+	color: #9B76A3;
 }
-.ux-text {
+.ux-project {
   text-align: center;
-  color: #F9F3FA;
-  font-size: 1.4rem;
+  color: #9B76A3;
+  font-size: 1.5rem;
+	margin-top: 5rem;
 }
 .view-link {
   color: #222;
   opacity: 0.8;
+}
+.credit {
+	text-align: center;
 }
 
 /* gallery */
