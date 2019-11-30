@@ -129,6 +129,11 @@ body {
 .journey {
 	color: #292d42;
 }
+.claps {
+  width: 30px;
+  height: auto;
+  vertical-align: bottom;
+}
 
 /* ux design */
 .ux {
@@ -194,8 +199,11 @@ body {
   color: #222;
   opacity: 0.8;
 }
-.credit {
+.credit, .credit-ux {
 	text-align: center;
+}
+.credit-ux {
+  color: #9B76A3;
 }
 
 /* gallery */
@@ -363,6 +371,14 @@ a {
 }
 .website-link {
   color: #c2e9fb;
+}
+.credit {
+  color: #c2e9fb;
+  font-size: 11px;
+}
+.credit-link {
+  color: #c2e9fb;
+  text-decoration: underline;
 }
 
 /* footer */
